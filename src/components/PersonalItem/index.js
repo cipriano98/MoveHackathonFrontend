@@ -5,8 +5,8 @@ import './styles.css';
     // Download the helper library from https://www.twilio.com/docs/node/install
     // Your Account Sid and Auth Token from twilio.com/console
     // DANGER! This is insecure. See http://twil.io/secure
-    const accountSid = 'ACa0b29d7fb4a66ce0ae35c7744448c90c';
-    const authToken = '3c46ba015767c967e675a77def84a628';
+    const accountSid = '';
+    const authToken = '';
     const client = require('twilio')(accountSid, authToken);
 
     client.messages
