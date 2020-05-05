@@ -20,7 +20,7 @@ import './styles.css';
  */
 function PersonalItem({ personal }) {
     return (
-            <li key={personal._id} className="personal-item">
+            <li className="personal-item">
                 <header>
                     <div className="img-personal" alt={personal.cref}></div>
                     <div className="user-info">
